@@ -50,18 +50,37 @@ nav {
   margin: 20px;
 }
 
+.flex-container > div {
+  background-color: white;
+  width: 200px;
+  margin: 300px;
+  text-align: center;
+  line-height: 400px;
+  font-size: 14px;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
+  font-size: 15px;
 }
 
-header {
-  position: fixed;
+#header {
+  position: flex;
   width: 100%;
-  top: 0;
-  left: 0;
+  background-color: white;
+  top: 0px;
 }
 
 #header-img {
-  width: 150px;
+  position: center;
+  width: 90%;
+  padding-left: 40px;
+  margin: auto;
+}
+
+#buy-on-amazon {
+  background-color: green;
+  width: 100%;
+  margin: auto;
 }
